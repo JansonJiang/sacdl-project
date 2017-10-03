@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var router = require('./app/router');
 
-app.set('views', './app/views')
+app.set('views', './app/views/repos')
 app.set('view engine', 'ejs')
 
 app.use(express.static('./public', {

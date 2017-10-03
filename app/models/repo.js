@@ -50,6 +50,8 @@ function treeData(data) {
         "children": []
     }
 
+    var dataSet = data;
+
     if (dataSet && dataSet.items) {
         var items = dataSet.items;
 
